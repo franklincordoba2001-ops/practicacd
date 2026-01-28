@@ -1,0 +1,8 @@
+josb:
+verificar_codigo:
+runs-on: ubuntu-latest
+steps:
+  - name: checkout repositorio
+    uses: actions/checkout@v4
+    -name: mostar archivo(opcional,para depurar)
+    run: ls -R
